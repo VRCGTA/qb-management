@@ -25,13 +25,11 @@ QBCore.Functions.CreateCallback('qb-bossmenu:server:GetEmployees', function(sour
 	end
 
 	local employees = {}
-
 	local players = MySQL.query.await("SELECT * FROM `players` WHERE `job` LIKE '%" .. jobname .. "%'", {})
-
 	if players[1] ~= nil then
 		for _, value in pairs(players) do
 			local isOnline = QBCore.Functions.GetPlayerByCitizenId(value.citizenid)
-
+			local valueJob = json.decode(value.job)
 			if isOnline and isOnline.PlayerData.job.name == jobname then
 				employees[#employees + 1] = {
 					empSource = isOnline.PlayerData.citizenid,
@@ -39,12 +37,13 @@ QBCore.Functions.CreateCallback('qb-bossmenu:server:GetEmployees', function(sour
 					isboss = isOnline.PlayerData.job.isboss,
 					name = '🟢 ' .. isOnline.PlayerData.charinfo.firstname .. ' ' .. isOnline.PlayerData.charinfo.lastname
 				}
-			elseif value.job.name == jobname then
+			elseif valueJob.name == jobname then
+				local valueCharInfo = json.decode(value.charinfo)
 				employees[#employees + 1] = {
 					empSource = value.citizenid,
-					grade = value.job.grade,
-					isboss = value.job.isboss,
-					name = '❌ ' .. value.charinfo.firstname .. ' ' .. value.charinfo.lastname
+					grade = valueJob.grade,
+					isboss = valueJob.isboss,
+					name = '❌ ' .. valueCharInfo.firstname .. ' ' ..valueCharInfo.lastname
 				}
 			end
 		end
