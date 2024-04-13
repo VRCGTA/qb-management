@@ -10,37 +10,80 @@ Config.BossMenus = {
     ['ambulance'] = {
         vector3(324.03, -584.29, 43.28),
     },
-    ['realestate'] = {
-        vector3(-716.11, 261.21, 84.14),
+    ['reporter'] = {
+        vector3(-71.97, -814.06, 243.39),
     },
-    ['taxi'] = {
-        vector3(894.96, -179.07, 74.7),
+    ['realestate'] = {
+        vector3(-715.67, 271.36, 84.70),
     },
     ['cardealer'] = {
-        vector3(-27.47, -1107.13, 27.27),
+        vector3(-30.87, -1106.65, 26.42),
+    },
+    ['truckdeeler'] = {
+        vector3(1789.18, 3387.93, 41.44),
+    },
+    ['material'] = {
+        vector3(-582.09, -1020.34, 22.33),
     },
     ['mechanic'] = {
-        vector3(-339.53, -156.44, 44.59),
+        vector3(-191.45, -1326.04, 34.99),
+    },
+    ['pizzeria'] = {
+        vector3(796.42, -766.67, 31.27),
+    },
+    ['ads'] = {
+        vector3(-318.87, -610.09, 33.56),
+    },
+    ['burgershot'] = {
+        vector3(-1204.84, -891.54, 14.00),
+    },
+    ['caffe'] = {
+        vector3(322.95, -891.12, 60.20),
+    },
+    ['bar'] = {
+        vector3(309.47, -905.64, 29.29),
     },
 }
 
 Config.BossMenuZones = {
     ['police'] = {
-        { coords = vector3(447.23, -974.3, 31.47), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, },
+        { coords = vector3(447.23, -974.3, 31.47), length = 1.35, width = 1.45, heading = 351.0, minZ = 30.00, maxZ = 31.73 }, 
+    },
     ['ambulance'] = {
         { coords = vector3(324.03, -584.29, 43.28), length = 1.2, width = 0.6, heading = 341.0, minZ = 43.13, maxZ = 43.73 },
     },
-    ['realestate'] = {
-        { coords = vector3(-716.11, 261.21, 84.14), length = 0.6, width = 1.0, heading = 25.0, minZ = 83.943, maxZ = 84.74 },
+    ['reporter'] = {
+        { coords = vector3(-71.97, -814.06, 243.39), length = 1.2, width = 0.6, heading = 147.51, minZ = 243, maxZ = 244 },
     },
-    ['taxi'] = {
-        { coords = vector3(894.96, -179.07, 74.7), length = 1.0, width = 3.4, heading = 327.0, minZ = 73.17, maxZ = 74.57 },
+    ['realestate'] = {
+        { coords = vector3(-715.67, 271.36, 84.70), length = 0.6, width = 1.0, heading = 110.0, minZ = 84, maxZ = 85 },
     },
     ['cardealer'] = {
-        { coords = vector3(-27.47, -1107.13, 27.27), length = 2.4, width = 1.05, heading = 340.0, minZ = 27.07, maxZ = 27.67 },
+        { coords = vector3(-30.87, -1106.65, 26.42), length = 2.4, width = 1.05, heading = 327.66, minZ = 26, maxZ = 27 },
+    },
+    ['truckdeeler'] = {
+        { coords = vector3(1789.18, 3387.93, 41.44), length = 2.4, width = 1.05, heading = 211.89, minZ = 41, maxZ = 42 },
+    },
+    ['material'] = {
+        { coords = vector3(-582.09, -1020.34, 22.33), length = 2.4, width = 1.05, heading = 85.87, minZ = 22, maxZ = 23 },
     },
     ['mechanic'] = {
-        { coords = vector3(-339.53, -156.44, 44.59), length = 1.15, width = 2.6, heading = 353.0, minZ = 43.59, maxZ = 44.99 },
+        { coords = vector3(-191.45, -1326.04, 34.99), length = 1.15, width = 2.6, heading = 258.43, minZ = 34.5, maxZ = 35.5 },
+    },
+    ['pizzeria'] = {
+        { coords = vector3(796.42, -766.67, 31.27), length = 1.15, width = 2.6, heading = 347.72, minZ = 31, maxZ = 32 },
+    },
+    ['ads'] = {
+        { coords = vector3(-318.87, -610.09, 33.56), length = 1.15, width = 2.6, heading = 81.42, minZ = 33, maxZ = 34 },
+    },
+    ['burgershot'] = {
+        { coords = vector3(-1204.84, -891.54, 14.00), length = 1.15, width = 2.6, heading = 56.40, minZ = 13.5, maxZ = 14.5 },
+    },
+    ['caffe'] = {
+        { coords = vector3(322.95, -891.12, 60.20), length = 1.15, width = 2.6, heading = 188.05, minZ = 60, maxZ = 61 },
+    },
+    ['bar'] = {
+        { coords = vector3(309.47, -905.64, 29.29), length = 1.15, width = 2.6, heading = 267.88, minZ = 39, maxZ = 30 },
     },
 }
 
