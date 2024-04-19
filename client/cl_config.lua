@@ -20,7 +20,7 @@ Config.BossMenus = {
         vector3(-30.87, -1106.65, 26.42),
     },
     ['truckdeeler'] = {
-        vector3(1789.18, 3387.93, 41.44),
+        vector3(1684.53, 3288.08, 41.15),
     },
     ['material'] = {
         vector3(-582.09, -1020.34, 22.33),
@@ -62,7 +62,7 @@ Config.BossMenuZones = {
         { coords = vector3(-30.87, -1106.65, 26.42), length = 2.4, width = 1.05, heading = 327.66, minZ = 26, maxZ = 27 },
     },
     ['truckdeeler'] = {
-        { coords = vector3(1789.18, 3387.93, 41.44), length = 2.4, width = 1.05, heading = 211.89, minZ = 41, maxZ = 42 },
+        { coords = vector3(1684.53, 3288.08, 41.15), length = 2.4, width = 1.05, heading = 211.89, minZ = 41, maxZ = 42 },
     },
     ['material'] = {
         { coords = vector3(-582.09, -1020.34, 22.33), length = 2.4, width = 1.05, heading = 85.87, minZ = 22, maxZ = 23 },
