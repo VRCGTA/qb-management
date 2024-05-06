@@ -43,6 +43,15 @@ Config.BossMenus = {
     ['bar'] = {
         vector3(309.47, -905.64, 29.29),
     },
+    ['wanwan'] = {
+        vector3(-1368.84, -626.47, 30.36),
+    },
+    ['runo'] = {
+        vector3(-645.76, -1242.63, 11.55),
+    },
+    ['meaty'] = {
+        vector3(-821.62, -699.15, 32.34),
+    },
 }
 
 Config.BossMenuZones = {
@@ -84,6 +93,15 @@ Config.BossMenuZones = {
     },
     ['bar'] = {
         { coords = vector3(309.47, -905.64, 29.29), length = 1.15, width = 2.6, heading = 267.88, minZ = 39, maxZ = 30 },
+    },
+    ['wanwan'] = {
+        { coords = vector3(-1368.84, -626.47, 30.36), length = 1.15, width = 2.6, heading = 31.61, minZ = 30, maxZ = 31 },
+    },
+    ['runo'] = {
+        { coords = vector3(-645.76, -1242.63, 11.55), length = 1.15, width = 2.6, heading =  99.33, minZ = 11, maxZ = 12 },
+    },
+    ['meaty'] = {
+        { coords = vector3(-821.62, -699.15, 32.34), length = 1.15, width = 2.6, heading = 257.20, minZ = 32, maxZ = 33 },
     },
 }
 
